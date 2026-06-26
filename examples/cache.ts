@@ -1,6 +1,6 @@
 import {
     Client,
-} from "vex-tm-client";
+} from "@jerrylum/vex-tm-client";
 import authorization from "./credentials.json" with { type: "json" };
 
 (async function () {

@@ -13,7 +13,7 @@
   },
   "keywords": [],
   "dependencies": {
-    "vex-tm-client": "file:../"
+    "@jerrylum/vex-tm-client": "file:../"
   },
   "author": "",
   "license": "ISC"

@@ -1,4 +1,4 @@
-import { Client } from "vex-tm-client";
+import { Client } from "@jerrylum/vex-tm-client";
 import authorization from "./credentials.json" with { type: "json" };
 
 (async function () {

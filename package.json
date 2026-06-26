@@ -4,13 +4,16 @@
     "license": "MIT",
     "main": "out/main.js",
     "type": "module",
-    "name": "vex-tm-client",
+    "name": "@jerrylum/vex-tm-client",
+    "publishConfig": {
+        "access": "public"
+    },
     "scripts": {
         "prepare": "npm run build",
         "build": "rimraf out && tsc && tsc -d"
     },
     "typings": "out/main.d.ts",
-    "version": "1.5.3",
+    "version": "1.6.0",
     "devDependencies": {
         "@types/node": "^24.0.13",
         "@types/ws": "^8.18.1",

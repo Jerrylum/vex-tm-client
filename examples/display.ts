@@ -1,4 +1,4 @@
-import { Client, FieldsetAudienceDisplay } from "vex-tm-client";
+import { Client, FieldsetAudienceDisplay } from "@jerrylum/vex-tm-client";
 import authorization from "./credentials.json" with { type: "json" };
 
 function timeout(ms: number) {
